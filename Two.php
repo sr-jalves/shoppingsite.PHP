@@ -60,7 +60,7 @@
 
     <?php
         if(isset($_GET['adicionar'])){
-            //Vamos adicionar ao carrinho.
+            //BUY IN.
             $idProduto = (int) $_GET['adicionar'];
             if(isset)($items[$idProduto]){
                 if(isset($_session[$idProduto])){
